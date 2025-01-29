@@ -1,0 +1,11 @@
+{
+    "/api": {
+      "target": "https://alerts-history.oref.org.il",
+      "secure": false,
+      "changeOrigin": true,
+      "pathRewrite": {
+        "^/api": ""
+      }
+    }
+  }
+  

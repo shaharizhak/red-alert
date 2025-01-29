@@ -1,0 +1,38 @@
+#dialog-container {
+  color: #005cbb !important;
+  direction: rtl;
+  background-color: #eff1fd !important;
+  h2 {
+    display: flex;
+    justify-content: center;
+  }
+  mat-dialog-content {
+    color: inherit !important;
+    font-weight: bold;
+    font-size: 20px !important;
+
+    li {
+      padding: 3px;
+    }
+  }
+}
+
+mat-dialog-actions {
+  display: flex;
+  justify-content: right;
+  padding-top: 15px;
+
+  button[mat-button] {
+    background-color: #d7e3ff;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #c5c8fc;
+    }
+  }
+}

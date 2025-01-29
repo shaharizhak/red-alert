@@ -1,0 +1,14 @@
+<div id="dialog-container">
+<h2 id="mat-dialog-title">{{ data.key }}</h2>
+<mat-dialog-content>
+  <p><strong>זמני התראות:</strong></p>
+  <div id='list'>
+  <ul>
+    <li *ngFor="let timestamp of data.timestamps">{{ timestamp }}</li>
+  </ul>
+</div>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button mat-dialog-close>סגור</button>
+</mat-dialog-actions>
+</div>
